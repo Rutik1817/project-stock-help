@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="sty.css">
+   
+    <title>StockHelp</title>
+    <link rel="icon" href="growth-chart_5446261.png" type="image/x-icon">
+
+ 
+    
+    
+
+</head>
+<body>
+    
+
+        <nav class="logo">
+          <h2>Stockhelp</h2>  
+        </nav>
+        <nav class="navMenu">
+         
+          <a href="blog.html">Blog</a>
+          <a href="sip.html">sip cal</a>
+          <a href="about.html">About</a>
+          <a href="index.html#">contact us</a>
+          <div class="dot"></div>
+        </nav>
+       <nav class="tt">
+        <h2>
+            Becoming a successful investor in future should be effortless when you understand and <b style="color: rgb(162, 0, 255);">let the market do the work for you</b>
+        </h2>
+       </nav>
+       <div class="container">
+
+        <a href="src.html" class="button">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">Let's Begin</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+      
+      </div>
+
+
+      <div class="ln2">
+        <h2>
+            I want to grow my money
+
+        </h2>
+        
+             
+                
+              </div>
+          
+              <div class="ag-courses_item">
+                <a href="stock.html" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                    stocks
+                  </div>
+                </a>
+              </div>
+          
+            
+          
+              <div class="ag-courses_item">
+                <a href="mf.html" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                   mutual funds 
+                  </div>
+                </a>
+                </div>
+                  <div class="ag-courses_item">
+                    <a href="ipo.html" class="ag-courses-item_link">
+                      <div class="ag-courses-item_bg"></div>
+              
+                      <div class="ag-courses-item_title">
+                       ipo
+                      </div>
+                    </a>
+                  </div>
+                 
+                  <nav class="t7">
+                    <h2>
+                      Igniting Imagination,<b style="color: rgb(162, 0, 255);">   Fueling Creativity</b>
+                    </h2>
+                   </nav>    
+                  
+                   
+              
+          
+            
+          
+       
+      
+     
+      
+      <div class="dummy_page">
+
+      </div>
+      
+      <div class="footer">
+        <div class="contain">
+        <div class="col">
+          <h1>connect</h1>
+          <ul>
+            <li>www.stockhelp@gmail.com</li>
+            <li>90xxxxxxx</li>
+            <li>stockhelp.online</li>
+            
+          </ul>
+        </div>
+        <div class="col">
+          <h1>social</h1>
+          <ul>
+            <li>instagram</li>
+            <li>youtube </li>
+            <li>facebook</li>
+            <li>github</li>
+            <li>linkedin</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>company</h1>
+          <ul>
+            <li>blog</li>
+            <li>about</li>
+            <li>terms</li>
+           
+          </ul>
+        </div>
+        <div class="col">
+         
+          
+        </div>
+       
+      <div class="clearfix"></div>
+      </div>
+      </div>
+  
+
+
+
+
+
+
+
+<script>
+
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>
