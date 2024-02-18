@@ -1,0 +1,88 @@
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-family:"Montserrat", sans-serif ;
+  }
+  .page-container {
+    margin: 1% 20%;
+    font-size: 16px;
+  }
+  .switch-container {
+    display: flex;
+    padding-left: 50px;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+  }
+  .switch-container > div {
+    margin: 1% 10% 3% 0;
+  }
+  .input-container {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+  }
+  .input-container > div {
+    margin: 1% 5% 0 0;
+  }
+  .result {
+    padding: 10% 0 0 0;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .result-container {
+    /* display: flex; */
+    padding-left: 60px;
+    font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+  }
+  .btn-calculate {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .btn-calculate > button {
+    height: 35px;
+    margin-right: 12%;
+    border-radius: 10px;
+    border: 2px solid #841cc4;
+    background-color: #841cc4;
+    border-color: #841cc4;
+    font-size: 15px;
+    width: 125px;
+    cursor: pointer;
+  }
+  .body-background {
+    background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+  }
+  .currency {
+    background: white;
+    border-radius: 10px;
+  }
+  #total {
+    border: 1px solid;
+  }
+  #wealth-gained {
+    border: 1px solid;
+  }
+  #maturity-value {
+    border: 1px solid;
+  }
+  #investment {
+    height: 30px;
+    border-radius: 9px;
+    border-color: #333;
+  }
+  #years {
+    height: 30px;
+    border-radius: 9px;
+    border-color: #333;
+  }
+  #return-rate {
+    height: 30px;
+    border-radius: 9px;
+    border-color: #333;
+  }
+  
