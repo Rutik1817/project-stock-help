@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>2</title>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='sty.css') }}">
+    
+    </head>
+<body>
+    <nav class="logo">
+        <h2>Stockhelp +</h2>  
+      </nav>
+    <nav class="logo2">
+        <img src="static\Google Ai Gemini.png">
+        
+      </nav>
+
+<p>
+   {{bot_response}}
+</p>
+
+<form  method="post"action="{{url_for('chatbot')}}" class="chat-input">
+    <input type="text" id="message"name="message" placeholder="type msg"required>
+    <button type="submit">send</button>
+</form>
+
+
+
+</body>
+
+
+
+</html>
